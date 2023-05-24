@@ -13,7 +13,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <h2>Steps</h2>
 
 
-1. 
+1. Select Resource Groups within the Azure Portal
 
 <p align="center">
 <img src=https://i.ibb.co/09rqGBs/1.jpg
@@ -22,7 +22,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />
 
                  
-1b. 
+1b. Select "Create Resource Group"
 
 <p align="center">
 <img src=https://i.ibb.co/27ScxY4/2.jpg
@@ -31,7 +31,8 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />
   
   
-1c. 
+1c. Fill out information required as shown on image below and Click "Review + Create" when done.
+   <br />(In this example, I used "Azure Subscription 1", named the resource group "RGLab1", and for region I selected "(US) East US" 
 
 <p align="center">
 <img src=https://i.ibb.co/DM6FLJW/3.jpg
@@ -40,7 +41,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />
   
   
-1d. 
+1d. Resource Group has been created
 
 <p align="center">
 <img src=https://i.ibb.co/tpghftb/4.jpg
@@ -49,7 +50,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-2. 
+2. Go to search bar and search for "Virtual Machines" and select it
 
 <p align="center">
 <img src=https://i.ibb.co/WFD8BZw/5.jpg
@@ -58,7 +59,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-2b. 
+2b. Click on "Create" and then select "Azure Virtual Machine"
 
 <p align="center">
 <img src=https://i.ibb.co/Mch1YMK/6.jpg
@@ -67,8 +68,8 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-2c. 
-
+2c. Fill out information required as shown on image below. Make sure you select the same subscription, region, and use the resource group you recently created. 
+<br /> (In this example, I named the virtual machine "VM1" and selected image "Windows 10 Pro, Version 21H2 - 64x Gen2")
 <p align="center">
 <img src=https://i.ibb.co/n7dVptn/7.jpg
 </p>
@@ -76,8 +77,8 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br /> 
   
   
-2d. 
-
+2d. Select virtual machine size and create a username and password for your virtual machine, then hit "Review + Create".
+<br /> (In this example, I used size "Standard_B1s- 1 vcpu - 1 GiB memory" and created the username "labuser") 
 <p align="center">
 <img src=https://i.ibb.co/4W4MNwc/8.jpg
 </p>
@@ -85,7 +86,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br /> 
   
   
-2e. 
+2e. If you get "Validation Passed" you are good to go then click "Create".
 
 <p align="center">
 <img src=https://i.ibb.co/GCV8yrW/9.jpg
@@ -94,7 +95,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-2f. 
+2f. Success! Virtual Machine has been created.
 
 <p align="center">
 <img src=https://i.ibb.co/0KhJKGN/10.jpg
@@ -103,7 +104,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-3. 
+3. Go to Virtual Machines in the Azure portal and Select the Virtual Machine recently created.
 
 <p align="center">
 <img src=https://i.ibb.co/GQKLJPS/11.jpg
@@ -112,7 +113,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-3b. 
+3b. Open up "Windows" and select the application "Remote Desktop Connection"
 
 <p align="center">
 <img src=https://i.ibb.co/rGws5ZJ/12.jpg
@@ -121,8 +122,8 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-3c. 
-
+3c. Copy the Virtual Machines public IP address into the "computer" bar on the Remote Desktop Connection app. After that click "connect"
+   <br /> (In this example, 20.172.224.222)
 <p align="center">
 <img src=https://i.ibb.co/pKr1fgp/13.jpg
 </p>
@@ -130,7 +131,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-3d. 
+3d. Enter the username and password used when you created the Virtual Machine then select "OK"
 
 <p align="center">
 <img src=https://i.ibb.co/zP1FdWd/14.jpg
@@ -139,7 +140,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-3e. 
+3e. Select "Yes" on this pop up message you get
 
 <p align="center">
 <img src=https://i.ibb.co/BcBq2Qv/15.jpg
@@ -148,7 +149,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />  
   
   
-3f. 
+3f. Congratulations! You are now connected to your virtual machine you created.
 
 <p align="center">
 <img src=https://i.ibb.co/BB0DRWx/16.jpg
@@ -157,5 +158,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 <br />
 <img src=https://i.ibb.co/m6ZPLqW/17.jpg
 
+     
+     
 Congratulations! You have created your first resource group and a virtual machine within Azure.
 
